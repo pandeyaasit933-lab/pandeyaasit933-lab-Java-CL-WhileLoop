@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/WhileLoopTest.java",
+      "testCases": [
+        {
+          "methodName": "whileLoopTest1",
+          "label": "sums numbers from 0 to n (input 3)",
+          "description": "Verifies that Lab.whileExample uses a while loop to sum all integers from 0 up to, but not including, 3 and returns 3 (0+1+2)."
+        },
+        {
+          "methodName": "whileLoopTest2",
+          "label": "sums numbers from 0 to n (input 5)",
+          "description": "Verifies that Lab.whileExample correctly sums all integers from 0 up to, but not including, 5 and returns 10 (0+1+2+3+4)."
+        },
+        {
+          "methodName": "whileLoopTest3",
+          "label": "sums numbers from 0 to n (input 6)",
+          "description": "Verifies that Lab.whileExample correctly sums all integers from 0 up to, but not including, 6 and returns 15 (0+1+2+3+4+5)."
+        },
+        {
+          "methodName": "whileLoopTest4",
+          "label": "returns 0 when input is 0",
+          "description": "Verifies that Lab.whileExample handles the edge case where the input is 0 by returning 0 (no numbers to sum)."
+        }
+      ]
+    }
+  ]
+}
